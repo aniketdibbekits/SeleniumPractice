@@ -23,7 +23,7 @@ public class ex5_Keywords_Priority {
 		
 	}
 	
-	@Test (priority = -6)
+	@Test (priority = 100)
 	public void tc4() {
 		Reporter.log("TC4",true);
 		

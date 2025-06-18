@@ -10,5 +10,6 @@ public class assert_true {
 		boolean result = false;
 		Assert.assertTrue(result);
 	}
+	
 
 }

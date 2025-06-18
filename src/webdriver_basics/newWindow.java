@@ -8,9 +8,9 @@ public class newWindow {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.instagram.com/");
 		Thread.sleep(2000);
-		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.get("https://www.facebook.com/");
-		driver.close();
+//		driver.close();
 		
 	}
 

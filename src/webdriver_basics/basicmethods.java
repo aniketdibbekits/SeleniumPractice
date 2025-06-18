@@ -8,7 +8,7 @@ public class basicmethods {
 		driver.get("https://www.facebook.com/login/");
 		Thread.sleep(2000);
 //		driver.close();
-//		driver.quit();
+		driver.quit();
 	}
 
 }

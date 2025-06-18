@@ -1,3 +1,4 @@
+
 package webdriver_basics;
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,6 +15,7 @@ public class navigate {
 		driver.navigate().forward();
 		driver.navigate().refresh();
 
-		driver.close();	}
+//		driver.close();
+		}
 
 }

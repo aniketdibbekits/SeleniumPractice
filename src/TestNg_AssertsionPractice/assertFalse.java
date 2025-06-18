@@ -7,7 +7,7 @@ import graphql.Assert;
 public class assertFalse {
 	@Test
 	public void tc1() {
-		boolean res = true;
+		boolean res = false;
 		Assert.assertFalse(res);
 		
 	}

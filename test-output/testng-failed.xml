@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg.ex15_MultibrowserTesting">
+      <class name="TestNg_AssertsionPractice.assertFalse">
         <methods>
-          <include name="Tc"/>
+          <include name="tc1"/>
         </methods>
-      </class> <!-- TestNg.ex15_MultibrowserTesting -->
+      </class> <!-- TestNg_AssertsionPractice.assertFalse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

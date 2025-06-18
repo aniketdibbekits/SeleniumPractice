@@ -12,18 +12,18 @@ public class ex1_selcetOption {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/r.php");
 		Thread.sleep(2000);
-	WebElement month = 	driver.findElement(By.xpath("//select[@id='month']"));
-	Actions act = new Actions(driver);
-	act.click(month).perform();
-	Thread.sleep(2000);
-	act.sendKeys(Keys.ARROW_DOWN).perform();
-	Thread.sleep(2000);
-	act.sendKeys(Keys.ARROW_DOWN).perform();
-	Thread.sleep(2000);
-	act.sendKeys(Keys.ENTER).perform();
+		WebElement month = 	driver.findElement(By.xpath("//select[@id='month']"));
+		Actions act = new Actions(driver);
+		act.click(month).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ARROW_DOWN).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ARROW_DOWN).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).perform();
 
 
-	driver.quit();
+		driver.quit();
 	}
 
 }
